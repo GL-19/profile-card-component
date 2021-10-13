@@ -5,14 +5,14 @@
 }
 
 body {
-	width: 100vw;
-	height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
+	padding: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: url(../images/bg-pattern-top.svg) no-repeat -80% 170%, url(../images/bg-pattern-bottom.svg) no-repeat 170% -90%;
 	background-color: hsl(185, 75%, 39%);
-	background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-	background-repeat: no-repeat;
 	font-size: 18px;
 	font-family: "Kumbh Sans", sans-serif;
 	font-weight: 400;
